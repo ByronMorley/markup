@@ -1,0 +1,10 @@
+---
+Name: markup
+After: 'framework/*','cms/*'
+---
+BlockPage:
+  extensions:
+    - MarkupExtension
+Page:
+  extensions:
+    - MarkupPageExtension
